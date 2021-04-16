@@ -16,6 +16,8 @@ function MainPanelPage () {
                             style={{
                                 marginLeft: 20
                             }}
+                            target="_blank"
+                            rel="noreferrer"
                         >
                             <img src={githubLogo} alt="github" width="50"/>
                         </a>

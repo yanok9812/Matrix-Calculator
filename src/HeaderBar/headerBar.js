@@ -14,7 +14,7 @@ function HeaderBar(){
                 <img src={back} alt="back" width="50"/>
             </Link>
 
-            <a href="https://github.com/yanok9812/Matrix-Calculator">
+            <a href="https://github.com/yanok9812/Matrix-Calculator" target="_blank" rel="noreferrer">
                 <img src={githubLogo} alt="github" width="50"/>
             </a>
         </div>
