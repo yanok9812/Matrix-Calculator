@@ -1,0 +1,61 @@
+.page-container {
+    min-height: 100vh;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background: linear-gradient(to right, rgb(76, 188, 225), rgb(186, 186, 235));
+}
+
+.functionButton {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    vertical-align: bottom;
+    height: 170px !important;
+    width: 170px !important;
+    background-color: lightseagreen !important;
+}
+
+.functionButton:hover {
+    text-decoration: none;
+    color:white;
+}
+
+.faIconCross {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: "inline-block";
+    vertical-align: middle;
+}
+
+.matrixEntry {
+    border-color: lightslategray;
+    font-size: 15px;
+    width: 45px !important;
+    height: 45px;
+    text-align: center;
+    padding: 0px !important;
+    display: inline-block !important;
+}
+
+.randomButton {
+    background-color: rgb(28, 25, 25);
+    border: none;
+    border-radius: 5rem;
+    font-size: 13px;
+    width: 150px;
+}
+
+.no-box-shadow:focus {
+    box-shadow: none !important;
+}
+
+
+@media only screen and (max-width: 440px){
+    .matrixEntry {
+        width: 30px !important;
+        height: 30px !important;
+        font-size: 12px !important;
+    }
+}
+
+
